@@ -15,17 +15,17 @@ namespace SelectionStatementExercise
                 Console.WriteLine("Try to guess my favorite number");
                 var userInput = int.Parse(Console.ReadLine());
 
-                if (userInput < 25)
+                if (userInput < favNumber)
                 {
                     Console.WriteLine("Too low");
                 }
 
-                else if (userInput > 25)
+                else if (userInput > favNumber)
                 {
                     Console.WriteLine("Too high");
                 }
 
-                else if (userInput == 25)
+                else if (userInput == favNumber)
                 {
 
                     Console.WriteLine("You are correct!");
